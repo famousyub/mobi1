@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../status_code.hpp
+cstdlib
+-
+map
+-
+string
+-
+unordered_map
+-
+vector
+-
+
+/home/user/Bureau/atmproject/cwebo/web/tests/assert.hpp
+cstdlib
+-
+iostream
+-
+
+/home/user/Bureau/atmproject/cwebo/web/tests/status_code_test.cpp
+assert.hpp
+/home/user/Bureau/atmproject/cwebo/web/tests/assert.hpp
+status_code.hpp
+/home/user/Bureau/atmproject/cwebo/web/tests/status_code.hpp
+

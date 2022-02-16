@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../crypto.hpp
+cmath
+-
+iomanip
+-
+istream
+-
+sstream
+-
+string
+-
+vector
+-
+openssl/buffer.h
+-
+openssl/evp.h
+-
+openssl/md5.h
+-
+openssl/sha.h
+-
+
+/home/user/Bureau/atmproject/cwebo/web/tests/assert.hpp
+cstdlib
+-
+iostream
+-
+
+/home/user/Bureau/atmproject/cwebo/web/tests/crypto_test.cpp
+assert.hpp
+/home/user/Bureau/atmproject/cwebo/web/tests/assert.hpp
+crypto.hpp
+/home/user/Bureau/atmproject/cwebo/web/tests/crypto.hpp
+vector
+-
+
